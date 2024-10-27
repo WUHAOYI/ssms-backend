@@ -9,9 +9,9 @@ server:
   port: 8082
 
 ssms:
-  email-service-endpoint: http://localhost:8088
-  account-service-endpoint: http://localhost:8081
-  bot-service-endpoint: http://localhost:8087
+  email-service-endpoint: http://mail-svc:8088
+  account-service-endpoint: http://account-svc:8081
+  bot-service-endpoint: http://bot-svc:8087
 
 management:
   endpoints:

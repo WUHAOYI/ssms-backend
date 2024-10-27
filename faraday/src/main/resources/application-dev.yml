@@ -14,11 +14,11 @@ faraday:
     -
       name: account_route
       host: account.ssms-v2.local
-      destinations: localhost:8081
+      destinations: account-svc:8081
     -
       name: company_route
       host: company.ssms-v2.local
-      destinations: localhost:8082
+      destinations: company-svc:8082
     -
       name: ical_route
       host: ical.ssms-v2.local
@@ -26,7 +26,7 @@ faraday:
     -
       name: whoami_route
       host: whoami.ssms-v2.local
-      destinations: localhost:8084
+      destinations: whoami-svc:8084
       timeout:
         connect: 10000
         read: 10000
@@ -37,15 +37,15 @@ faraday:
     -
       name: www_route
       host: www.ssms-v2.local
-      destinations: localhost:8086
+      destinations: web-svc:8086
     -
       name: myaccount_route
       host: myaccount.ssms-v2.local
-      destinations: localhost:9000
+      destinations: myaccount-svc:9000
     -
       name: app_route
       host: app.ssms-v2.local
-      destinations: localhost:9001
+      destinations: app-svc:9001
 management:
   endpoints:
     web:

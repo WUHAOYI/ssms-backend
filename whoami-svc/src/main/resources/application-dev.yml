@@ -12,5 +12,5 @@ management:
         include: "*"
 
 ssms:
-  account-service-endpoint: http://localhost:8081
-  company-service-endpoint: http://localhost:8082
+  account-service-endpoint: http://account-svc:8081
+  company-service-endpoint: http://company-svc:8082
