@@ -198,23 +198,27 @@
         </plugins>
     </build>
 
-    <!--<repositories>-->
-    <!--    <repository>-->
-    <!--        <id>aliyun-repos</id>-->
-    <!--        <url>https://maven.aliyun.com/nexus/content/groups/public/</url>-->
-    <!--        <snapshots>-->
-    <!--            <enabled>false</enabled>-->
-    <!--        </snapshots>-->
-    <!--    </repository>-->
-    <!--    &lt;!&ndash;https://github.com/jacek99/structlog4j&ndash;&gt;-->
-    <!--    <repository>-->
-    <!--        <id>jcenter</id>-->
-    <!--        <url>https://jcenter.bintray.com</url>-->
-    <!--        <snapshots>-->
-    <!--            <enabled>false</enabled>-->
-    <!--        </snapshots>-->
-    <!--    </repository>-->
-    <!--</repositories>-->
+    <repositories>
+        <!--<repository>-->
+        <!--    <id>aliyun-repos</id>-->
+        <!--    <url>https://maven.aliyun.com/nexus/content/groups/public/</url>-->
+        <!--    <snapshots>-->
+        <!--        <enabled>false</enabled>-->
+        <!--    </snapshots>-->
+        <!--</repository>-->
+        <!--&lt;!&ndash;https://github.com/jacek99/structlog4j&ndash;&gt;-->
+        <!--<repository>-->
+        <!--    <id>jcenter</id>-->
+        <!--    <url>https://jcenter.bintray.com</url>-->
+        <!--    <snapshots>-->
+        <!--        <enabled>false</enabled>-->
+        <!--    </snapshots>-->
+        <!--</repository>-->
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
 
     <!--<pluginRepositories>-->
     <!--    <pluginRepository>-->
