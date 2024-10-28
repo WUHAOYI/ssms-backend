@@ -215,10 +215,6 @@
         <!--    </snapshots>-->
         <!--</repository>-->
         <repository>
-            <id>central</id>
-            <url>https://repo.maven.apache.org/maven2</url>
-        </repository>
-        <repository>
             <id>spring-plugins-release</id>
             <url>https://repo.spring.io/plugins-release</url>
         </repository>
