@@ -214,10 +214,6 @@
         <!--        <enabled>false</enabled>-->
         <!--    </snapshots>-->
         <!--</repository>-->
-        <repository>
-            <id>spring-plugins-release</id>
-            <url>https://repo.spring.io/plugins-release</url>
-        </repository>
     </repositories>
 
     <!--<pluginRepositories>-->
